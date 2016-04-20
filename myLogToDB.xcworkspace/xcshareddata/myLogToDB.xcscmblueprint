@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E07A448ECA71BFEA678F99B2E16511983A2FF44B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FB686D27E5F22801AE24F7D83A8787EBF6E8664F" : 0,
+    "E07A448ECA71BFEA678F99B2E16511983A2FF44B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "438955D6-A757-436A-B605-6686B781063A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FB686D27E5F22801AE24F7D83A8787EBF6E8664F" : "",
+    "E07A448ECA71BFEA678F99B2E16511983A2FF44B" : "myLogToDB\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "myLogToDB",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "myLogToDB.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yanduhantan563\/myLogToDB.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E07A448ECA71BFEA678F99B2E16511983A2FF44B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com\/yanduhantan563\/hello-world.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FB686D27E5F22801AE24F7D83A8787EBF6E8664F"
+    }
+  ]
+}

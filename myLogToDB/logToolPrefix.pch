@@ -1,0 +1,27 @@
+//
+//  logToolPrefix.pch
+//  myLogToDB
+//
+//  Created by 杨乐乐 on 16/4/15.
+//  Copyright © 2016年 杨乐乐. All rights reserved.
+//
+
+#ifndef logToolPrefix_pch
+#define logToolPrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import "Common.h"
+#import "DDTTYLogger.h"
+#import "DDDBLogger.h"
+#import "DDDBLogFormatter.h"
+#import "DDLog.h"
+#import "DBConnect.h"
+#import "logInfoModel.h"
+#import "logSqlModel.h"
+#endif
+
+
+#endif /* logToolPrefix_pch */
