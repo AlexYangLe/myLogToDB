@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "DDLog.h"
+#import "DDTTYLogger.h"
+#import "DDDBLogger.h"
+#import "DDDBLogFormatter.h"
 
 @interface AppDelegate ()
 
