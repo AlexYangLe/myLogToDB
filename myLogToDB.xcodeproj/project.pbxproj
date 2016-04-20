@@ -81,7 +81,6 @@
 		75514FCD1CC72C2B0054AE72 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
 		75514FD01CC72C2B0054AE72 /* logSqlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logSqlModel.h; sourceTree = "<group>"; };
 		75514FD11CC72C2B0054AE72 /* logSqlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logSqlModel.m; sourceTree = "<group>"; };
-		75E75D531CC0CAB600B03943 /* logToolPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logToolPrefix.pch; sourceTree = "<group>"; };
 		998CB74423EA9498E84D5B73 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,7 +161,6 @@
 				753C21B51CBF449D00336420 /* Assets.xcassets */,
 				753C21B71CBF449D00336420 /* LaunchScreen.storyboard */,
 				753C21BA1CBF449D00336420 /* Info.plist */,
-				75E75D531CC0CAB600B03943 /* logToolPrefix.pch */,
 				753C21A91CBF449D00336420 /* Supporting Files */,
 			);
 			path = myLogToDB;
