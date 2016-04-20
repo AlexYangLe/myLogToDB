@@ -1,0 +1,3 @@
+# myLogToDB
+
+通过CocoaLumberjack 开源的日志框架，将日志发送到本地数据库，通过GCDWebServer的方式在本地的浏览器实现日志的访问
