@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		67DF9CE6A304BC1EDA0B0E04 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBA5CB65BEC51A36A2546AF /* libPods.a */; };
-		752B910F1CC60CC100003E13 /* DDDBLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B91081CC60CC100003E13 /* DDDBLogFormatter.m */; };
-		752B91101CC60CC100003E13 /* DDDBLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B910A1CC60CC100003E13 /* DDDBLogger.m */; };
-		752B91111CC60CC100003E13 /* logInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B910C1CC60CC100003E13 /* logInfoModel.m */; };
-		752B91121CC60CC100003E13 /* logSqlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B910E1CC60CC100003E13 /* logSqlModel.m */; };
 		753C21AB1CBF449D00336420 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C21AA1CBF449D00336420 /* main.m */; };
 		753C21AE1CBF449D00336420 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C21AD1CBF449D00336420 /* AppDelegate.m */; };
 		753C21B11CBF449D00336420 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C21B01CBF449D00336420 /* ViewController.m */; };
@@ -21,10 +17,13 @@
 		753C21C41CBF449D00336420 /* myLogToDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C21C31CBF449D00336420 /* myLogToDBTests.m */; };
 		753C21CF1CBF449D00336420 /* myLogToDBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C21CE1CBF449D00336420 /* myLogToDBUITests.m */; };
 		753C220F1CBF6E8E00336420 /* DBConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C220E1CBF6E8E00336420 /* DBConnect.m */; };
-		753C22831CC0057500336420 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C226B1CC0057500336420 /* DDAbstractDatabaseLogger.m */; };
-		753C22871CC0057500336420 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C22761CC0057500336420 /* DDLog.m */; };
-		753C22881CC0057500336420 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C22791CC0057500336420 /* DDTTYLogger.m */; };
 		75514FC01CC71D600054AE72 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 75514FBF1CC71D600054AE72 /* libsqlite3.tbd */; };
+		75514FD21CC72C2B0054AE72 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 75514FC31CC72C2B0054AE72 /* DDAbstractDatabaseLogger.m */; };
+		75514FD31CC72C2B0054AE72 /* DDDBLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75514FC51CC72C2B0054AE72 /* DDDBLogFormatter.m */; };
+		75514FD41CC72C2B0054AE72 /* DDDBLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 75514FC71CC72C2B0054AE72 /* DDDBLogger.m */; };
+		75514FD51CC72C2B0054AE72 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 75514FCA1CC72C2B0054AE72 /* DDLog.m */; };
+		75514FD61CC72C2B0054AE72 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 75514FCD1CC72C2B0054AE72 /* DDTTYLogger.m */; };
+		75514FD81CC72C2B0054AE72 /* logSqlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75514FD11CC72C2B0054AE72 /* logSqlModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +46,6 @@
 /* Begin PBXFileReference section */
 		2B754DAC8BEC2612A00008DB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		2DBA5CB65BEC51A36A2546AF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		752B91071CC60CC100003E13 /* DDDBLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDBLogFormatter.h; sourceTree = "<group>"; };
-		752B91081CC60CC100003E13 /* DDDBLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDBLogFormatter.m; sourceTree = "<group>"; };
-		752B91091CC60CC100003E13 /* DDDBLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDBLogger.h; sourceTree = "<group>"; };
-		752B910A1CC60CC100003E13 /* DDDBLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDBLogger.m; sourceTree = "<group>"; };
-		752B910B1CC60CC100003E13 /* logInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logInfoModel.h; sourceTree = "<group>"; };
-		752B910C1CC60CC100003E13 /* logInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logInfoModel.m; sourceTree = "<group>"; };
-		752B910D1CC60CC100003E13 /* logSqlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logSqlModel.h; sourceTree = "<group>"; };
-		752B910E1CC60CC100003E13 /* logSqlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logSqlModel.m; sourceTree = "<group>"; };
 		753C21A61CBF449D00336420 /* myLogToDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myLogToDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		753C21AA1CBF449D00336420 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		753C21AC1CBF449D00336420 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,16 +65,22 @@
 		753C220D1CBF6E8E00336420 /* DBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBConnect.h; sourceTree = "<group>"; };
 		753C220E1CBF6E8E00336420 /* DBConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBConnect.m; sourceTree = "<group>"; };
 		753C225A1CBFFB3800336420 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
-		753C22681CC0057500336420 /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
-		753C226A1CC0057500336420 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
-		753C226B1CC0057500336420 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
-		753C22731CC0057500336420 /* DDLegacyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLegacyMacros.h; sourceTree = "<group>"; };
-		753C22751CC0057500336420 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
-		753C22761CC0057500336420 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
-		753C22771CC0057500336420 /* DDLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLogMacros.h; sourceTree = "<group>"; };
-		753C22781CC0057500336420 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
-		753C22791CC0057500336420 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
 		75514FBF1CC71D600054AE72 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		75514FC11CC72C2B0054AE72 /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
+		75514FC21CC72C2B0054AE72 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		75514FC31CC72C2B0054AE72 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		75514FC41CC72C2B0054AE72 /* DDDBLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDBLogFormatter.h; sourceTree = "<group>"; };
+		75514FC51CC72C2B0054AE72 /* DDDBLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDBLogFormatter.m; sourceTree = "<group>"; };
+		75514FC61CC72C2B0054AE72 /* DDDBLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDBLogger.h; sourceTree = "<group>"; };
+		75514FC71CC72C2B0054AE72 /* DDDBLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDBLogger.m; sourceTree = "<group>"; };
+		75514FC81CC72C2B0054AE72 /* DDLegacyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLegacyMacros.h; sourceTree = "<group>"; };
+		75514FC91CC72C2B0054AE72 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		75514FCA1CC72C2B0054AE72 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		75514FCB1CC72C2B0054AE72 /* DDLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLogMacros.h; sourceTree = "<group>"; };
+		75514FCC1CC72C2B0054AE72 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		75514FCD1CC72C2B0054AE72 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		75514FD01CC72C2B0054AE72 /* logSqlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logSqlModel.h; sourceTree = "<group>"; };
+		75514FD11CC72C2B0054AE72 /* logSqlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logSqlModel.m; sourceTree = "<group>"; };
 		75E75D531CC0CAB600B03943 /* logToolPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logToolPrefix.pch; sourceTree = "<group>"; };
 		998CB74423EA9498E84D5B73 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,10 +138,24 @@
 			isa = PBXGroup;
 			children = (
 				753C220C1CBF6E7D00336420 /* DB */,
-				753C22641CC0057500336420 /* Classes */,
 				753C21AC1CBF449D00336420 /* AppDelegate.h */,
 				753C21AD1CBF449D00336420 /* AppDelegate.m */,
 				753C225A1CBFFB3800336420 /* Common.h */,
+				75514FC11CC72C2B0054AE72 /* CocoaLumberjack.h */,
+				75514FC21CC72C2B0054AE72 /* DDAbstractDatabaseLogger.h */,
+				75514FC31CC72C2B0054AE72 /* DDAbstractDatabaseLogger.m */,
+				75514FC41CC72C2B0054AE72 /* DDDBLogFormatter.h */,
+				75514FC51CC72C2B0054AE72 /* DDDBLogFormatter.m */,
+				75514FC61CC72C2B0054AE72 /* DDDBLogger.h */,
+				75514FC71CC72C2B0054AE72 /* DDDBLogger.m */,
+				75514FC81CC72C2B0054AE72 /* DDLegacyMacros.h */,
+				75514FC91CC72C2B0054AE72 /* DDLog.h */,
+				75514FCA1CC72C2B0054AE72 /* DDLog.m */,
+				75514FCB1CC72C2B0054AE72 /* DDLogMacros.h */,
+				75514FCC1CC72C2B0054AE72 /* DDTTYLogger.h */,
+				75514FCD1CC72C2B0054AE72 /* DDTTYLogger.m */,
+				75514FD01CC72C2B0054AE72 /* logSqlModel.h */,
+				75514FD11CC72C2B0054AE72 /* logSqlModel.m */,
 				753C21AF1CBF449D00336420 /* ViewController.h */,
 				753C21B01CBF449D00336420 /* ViewController.m */,
 				753C21B21CBF449D00336420 /* Main.storyboard */,
@@ -190,30 +201,6 @@
 				753C220E1CBF6E8E00336420 /* DBConnect.m */,
 			);
 			name = DB;
-			sourceTree = "<group>";
-		};
-		753C22641CC0057500336420 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				753C22681CC0057500336420 /* CocoaLumberjack.h */,
-				753C226A1CC0057500336420 /* DDAbstractDatabaseLogger.h */,
-				753C226B1CC0057500336420 /* DDAbstractDatabaseLogger.m */,
-				752B91071CC60CC100003E13 /* DDDBLogFormatter.h */,
-				752B91081CC60CC100003E13 /* DDDBLogFormatter.m */,
-				752B91091CC60CC100003E13 /* DDDBLogger.h */,
-				752B910A1CC60CC100003E13 /* DDDBLogger.m */,
-				752B910B1CC60CC100003E13 /* logInfoModel.h */,
-				752B910C1CC60CC100003E13 /* logInfoModel.m */,
-				752B910D1CC60CC100003E13 /* logSqlModel.h */,
-				752B910E1CC60CC100003E13 /* logSqlModel.m */,
-				753C22731CC0057500336420 /* DDLegacyMacros.h */,
-				753C22751CC0057500336420 /* DDLog.h */,
-				753C22761CC0057500336420 /* DDLog.m */,
-				753C22771CC0057500336420 /* DDLogMacros.h */,
-				753C22781CC0057500336420 /* DDTTYLogger.h */,
-				753C22791CC0057500336420 /* DDTTYLogger.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		AB962216B0C774D279C2C6E4 /* Pods */ = {
@@ -418,17 +405,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				752B91111CC60CC100003E13 /* logInfoModel.m in Sources */,
 				753C220F1CBF6E8E00336420 /* DBConnect.m in Sources */,
-				752B910F1CC60CC100003E13 /* DDDBLogFormatter.m in Sources */,
+				75514FD31CC72C2B0054AE72 /* DDDBLogFormatter.m in Sources */,
 				753C21B11CBF449D00336420 /* ViewController.m in Sources */,
+				75514FD61CC72C2B0054AE72 /* DDTTYLogger.m in Sources */,
 				753C21AE1CBF449D00336420 /* AppDelegate.m in Sources */,
-				753C22881CC0057500336420 /* DDTTYLogger.m in Sources */,
-				753C22871CC0057500336420 /* DDLog.m in Sources */,
-				753C22831CC0057500336420 /* DDAbstractDatabaseLogger.m in Sources */,
+				75514FD51CC72C2B0054AE72 /* DDLog.m in Sources */,
+				75514FD41CC72C2B0054AE72 /* DDDBLogger.m in Sources */,
 				753C21AB1CBF449D00336420 /* main.m in Sources */,
-				752B91121CC60CC100003E13 /* logSqlModel.m in Sources */,
-				752B91101CC60CC100003E13 /* DDDBLogger.m in Sources */,
+				75514FD81CC72C2B0054AE72 /* logSqlModel.m in Sources */,
+				75514FD21CC72C2B0054AE72 /* DDAbstractDatabaseLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

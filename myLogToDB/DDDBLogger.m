@@ -22,13 +22,13 @@
 @implementation DDDBLogger
 
 - (void)setsaveDBTotalNum:(NSUInteger)threshold {
-    dispatch_block_t block = ^{
-        @autoreleasepool {
+//    dispatch_block_t block = ^{
+//        @autoreleasepool {
             if (_saveDBTotalNum != threshold) {
                 _saveDBTotalNum = threshold;
             }
-        }
-    };
+//        }
+//    };
 }
 
 
@@ -72,7 +72,7 @@
 -(void)saveLogEntries:(DDLogMessage *)logMessage
 {
     logSqlModel *logSql = [[logSqlModel alloc] init];
-    NSString *countSqlStr = logSql.countSqlStr;
+//    NSString *countSqlStr = logSql.countSqlStr;
     //获取当前的数据库中村的数据的条数
     //统计数据库数据条数的sql
     NSInteger saveDBNum = [[DBConnect shareConnect] getDBDataCount: logSql.countSqlStr];

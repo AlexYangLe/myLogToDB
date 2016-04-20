@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DDLegacyMacros.h"
 #import "DDLog.h"
 #import "DDTTYLogger.h"
 #import "DDDBLogger.h"

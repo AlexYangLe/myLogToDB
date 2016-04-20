@@ -22,9 +22,10 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/yanduhantan563/myLogToDB.git", :tag => "0.0.1" }
 
-  s.source_files  = "myLogToDB", "myLogToDB/**/*.{h,m}"
+  s.source_files  = "myLogToDB/**/*.{h,m}"
+  #"myLogToDB/**/*.{h,m}"
 
-
+  # s.private_header_files = "myLogToDB/Classes/*.h"
   # s.resource  = "icon.png"
   s.resources = "myLogToDB/*.pch"
 
